@@ -1,0 +1,41 @@
+table 
+{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 20px;
+    text-align: left;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    margin-top: 50px;
+    
+    
+}
+
+th, td 
+{
+    padding: 12px 15px;
+    border: 1px solid #ffffff;
+    text-align: center;
+    font: 1.2em 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+thead
+{
+    color: #ffffff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+table, th, td 
+{
+    border: 8px solid rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+}
+body {
+    background-image: url("PIC.jpg");
+
+}
+

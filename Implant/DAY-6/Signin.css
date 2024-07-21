@@ -1,0 +1,73 @@
+.Sign-In
+{
+    background-color: rgb(64, 20, 84);
+    height: 327px;
+    width: 270px;
+    justify-content: center;
+    margin: auto;
+    margin-top: 227px;
+    margin-bottom: 227px;
+    margin-right: 601px;
+    margin-left: 601px;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: thick;
+    border-color: rgb(140, 35, 108);
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+input[type=text]{
+    background-color: rgb(64, 20, 84);
+    border: none;
+    border-bottom: 2px solid  rgb(140, 35, 108);
+    width: 85%;
+    border-width: 4px;
+  }
+
+input[type=password] {
+    padding-top: 0.5px;
+    background-color: rgb(64, 20, 84);
+    border: none;
+    border-bottom: 2px solid  rgb(140, 35, 108);
+    width: 85%;
+    border-width: 4px;
+  }  
+
+::placeholder{
+    color: rgb(89, 0, 62);
+    font-size: medium;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+button{
+    float: left;
+    padding: 12px;
+    width: 75px;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    justify-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#Login{
+    justify-content: center;
+    background-color: rgb(0, 8, 54);
+    color: rgb(140, 35, 108);
+}
+
+#Register{
+    justify-content: center;
+    color: rgb(0, 8, 54);
+    background-color: rgb(140, 35, 108);
+}

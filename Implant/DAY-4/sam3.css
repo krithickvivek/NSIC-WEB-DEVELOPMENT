@@ -1,0 +1,62 @@
+@font-face {
+    font-family: Gam;
+    src: url(/GaMaamli-Regular.ttf);
+}
+.cont
+{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(165, 165, 165);
+}
+.obj
+{
+    background-color: crimson;
+    height: 100px;
+    width: 100px;
+    transition: 2s;
+    margin-left: 30px;
+    margin-top: 10px;
+    
+}
+.obj:hover
+{
+    background-color: rgb(87, 140, 255);
+    border-radius: 50%;
+}
+b:hover
+{
+    font-size: xx-large;
+    font-family:Gam;
+}
+@keyframes BL {
+    0%{color: blue;padding-left: 50px;transform: rotate(360deg);}
+    25%{color: rgb(255, 255, 255);}
+    50%{color: blue;padding-right: 50;}
+    75%{color: rgb(255, 255, 255);padding-bottom: 50;}
+    100%{color: blue;padding-left: 50;}
+}
+h1{
+    animation: BL 3s;
+    animation-iteration-count:infinite;
+}
+.load
+{
+    background-color: bisque;
+    border-radius: 10%;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    text-transform: lowercase;
+}
+ol li{
+    list-style-type: none;
+}
+p{
+    border: 2px solid black;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+b{
+    padding-bottom: 10px;
+}

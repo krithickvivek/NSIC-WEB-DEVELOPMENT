@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.loader {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 100px; 
+    height: 100px; 
+    margin-left: -50px; 
+    margin-top: -50px; 
+    border: 10px solid #cbc9c9ee; 
+    border-radius: 50%;
+    border-top: 10px solid #ba3a40; 
+    -webkit-animation: spin 2s linear infinite; 
+    animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.content {
+    display: none;
+    padding: 20px;
+    text-align: center;
+}
